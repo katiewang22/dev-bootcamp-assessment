@@ -1,0 +1,61 @@
+/* Your Styles Here */
+body{
+    background: url("background.jpg");
+    background-size: cover;
+
+    .wrapper {
+        width: 100%;
+        text-align: center;
+    }
+
+    .card {
+        width: 40%;
+        display: inline-block;
+        margin-top: 2rem;
+        transform: rotate(3deg);
+        transition: 0.15s;
+    }
+
+    .card:hover {
+        transform: rotate(-6deg);
+        transition: 0.15s;
+    }
+
+    .card2 {
+        width: 90%;
+        display: inline-block;
+        margin-top: 2rem;
+        background: linear-gradient(-45deg, #e1ae9f, #ffafce, #b0eaff, #b3ffed);
+        padding: 0.25rem;
+    }
+
+    .picture {
+        background: #fff;
+        padding: 1rem;
+    }
+
+    .picture img{
+        max-width: 100%;
+        height: auto;
+    }
+
+    .caption {
+        font-size: 1.8rem;
+        font-family: "Bradley Hand", cursive;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    .paragraph {
+        font-size: 1.25rem;
+        font-family: "Bradley Hand", cursive;
+        text-align: center;
+        line-height: 2em;
+    }
+
+    .button {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+}
