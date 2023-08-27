@@ -27,7 +27,7 @@ body {
     display: inline-block;
     margin-top: 2rem;
     padding: 0.25rem;
-    animation: gradient 15s ease infinite;
+    animation: gradient 10s ease infinite;
     background: linear-gradient(-45deg, #cdb4db, #ffc8dd, #bde0fe, #ffdab9);
     background-size: 400% 400%;
 }
@@ -60,6 +60,10 @@ body {
     position: absolute;
     right: 0;
     top: 0;
+}
+
+.btn:hover {
+    box-shadow: 0 10px 10px 0 rgba(0,0,0,0.24),0 15px 40px 0 rgba(0,0,0,0.19);
 }
 
 @keyframes gradient {
